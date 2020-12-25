@@ -1,0 +1,11 @@
+x=input("Enter Current B.S: ")
+z=input('Enter Current A.D: ')
+y=input('Enter the A.D you wanted to convert: ') 
+x=int (x)
+y=int (y)
+z=int (z)
+m=(x)-(z-y)
+m=str(m)
+ok=('\n \t \t \t \t \t \t'+"_-_Current-B.S-according-to-your-mentioned-information-is: "+m+"_B.S")
+print(ok)
+	
